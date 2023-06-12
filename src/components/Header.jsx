@@ -1,10 +1,8 @@
 import React from 'react'
-// import Nav from './Nav'
-import imageHeader from '../public/images/mobile/image-header.jpg'
 import './Header.css'
-import sunnysideLogo from '../public/images/logo.svg'
-import navBtn from '../public/images/icon-hamburger.svg'
-import iconArrowDown from '../public/images/icon-arrow-down.svg'
+import sunnysideLogo from '../../public/images/logo.svg'
+import navBtn from '../../public/images/icon-hamburger.svg'
+import iconArrowDown from '../../public/images/icon-arrow-down.svg'
 
 
 
