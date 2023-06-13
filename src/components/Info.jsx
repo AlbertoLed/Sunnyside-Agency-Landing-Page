@@ -3,7 +3,7 @@ import Textcard from './Textcard'
 import imgTransform from '../../public/images/mobile/image-transform.jpg'
 import imgStandOut from '../../public/images/mobile/image-stand-out.jpg'
 import './Info.css'
-import { cardtext } from '../data'
+import { cardtext } from '../data.js'
 
 function Info() {
 
