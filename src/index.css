@@ -11,6 +11,20 @@ font-family: 'Fraunces', serif; */
 
 :root {
   --WHITE: hsl(0, 0%, 100%);
+  --YELLOW: hsl(51 100% 49% / .25);
+  --SALMON: hsl(7 99% 70% / .25);
+  --DARK-BLUE: hsl(212, 27%, 19%);
+  --GRAYISH-BLUE: hsl(232, 10%, 55%);
+
+
+
+ 
+--Darkdesaturatedcyangraphicdesigntext: hsl(167, 40%, 24%);
+--Darkphotographytext: hsl(198, 62%, 26%);
+--Darkmoderatecyanfooter: hsl(168, 34%, 41%);
+
+--Grayishblue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
 
   font-family: 'Barlow', sans-serif
 }

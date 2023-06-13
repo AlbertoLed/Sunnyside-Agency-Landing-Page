@@ -49,5 +49,6 @@ const clientTestimonials = [
         name: 'Jennie F.',
         job: 'Business Owner'
     }
-
 ]
+
+export {cardtext, cardtextImg, clientTestimonials}

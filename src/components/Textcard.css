@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 25px;
+}
+.card__title {
+    font-family: 'Fraunces', serif;
+    color: var(--DARK-BLUE);
+    font-size: 1.7em;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.card__paragraph {
+    color: var(--GRAYISH-BLUE);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.anchor {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+.anchor__text {
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    color: var(--DARK-BLUE);
+    font-size: .9em;
+    grid-area: 1 / 1 / 1 / 1;
+    z-index: 1;
+    height: 24px;
+}
+.anchor__marker {
+    height: 10px;
+    width: 130px;
+    grid-area: 1 / 1 / 1 / 1;
+    align-self: end;
+    border-radius: 5px;
+}
+.anchor__marker--yellow {
+    background-color: var(--YELLOW);
+}
+.anchor__marker--salmon {
+    background-color: var(--SALMON);
+}
