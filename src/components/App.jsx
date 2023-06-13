@@ -1,6 +1,6 @@
 import React from 'react'
-import Header from './Header'
-import Info from './Info'
+import Header from './Header.jsx'
+import Info from './Info.jsx'
 
 function App() {
   return(
