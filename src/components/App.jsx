@@ -1,13 +1,14 @@
 import React from 'react'
-import Header from './Header.jsx'
-import Info from './Info.jsx'
+// import Header from './Header.jsx'
+// import Info from './Info.jsx'
 
 function App() {
   return(
     <>
-      <Header />
+      {/* <Header /> */}
       <main>
-        <Info />
+        <h1>hello</h1>
+        {/* <Info /> */}
         {/* testimonials */}
 
         {/* photos */}
