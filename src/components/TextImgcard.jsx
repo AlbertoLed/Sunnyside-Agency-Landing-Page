@@ -14,7 +14,7 @@ function TextImgcard(props) {
 
     return (
         <div className='img-card'>
-            <img className='img-card__img' src={`../../public/${mobileImg}`} />
+            <img className='img-card__img' src={mobileImg} />
             <div className='img-card__text'>
                 <h2 className={`img-card__title ${txtcolorClass}`}>{title}</h2>
                 <p className={`img-card__paragraph ${txtcolorClass}`}>{paragraph}</p>
