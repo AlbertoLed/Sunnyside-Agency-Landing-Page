@@ -1,0 +1,13 @@
+.testimonials-section {
+    padding: 50px 0;
+}
+.testimonials-section__title {
+    font-family: 'Fraunces', serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: .9em;
+    color: var(--LIGTH-GRAYISH-BLUE);
+    letter-spacing: .2em;
+    margin-bottom: 30px;
+    font-weight: 900;
+}
