@@ -1,0 +1,32 @@
+.img-card {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    width: 100%;
+}
+.img-card__img {
+    grid-area: 1 / 1 / 1 / 1;
+    width: 100%;
+}
+.img-card__text {
+    grid-area: 1 / 1 / 1 / 1;
+    align-self: flex-end;
+    text-align: center;
+    padding: 60px 20px;
+}
+.img-card__title {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.img-card__paragraph {
+    font-size: .9em;
+    line-height: 1.6em;
+}
+.img-card__text--cyan {
+    color: var(--DARK-CYAN-TEXT);
+}
+.img-card__text--blue {
+    color: var(--DARK-BLUE-TEXT);
+}

@@ -16,11 +16,11 @@ font-family: 'Fraunces', serif; */
   --DARK-BLUE: hsl(212, 27%, 19%);
   --GRAYISH-BLUE: hsl(232, 10%, 55%);
 
+  --DARK-CYAN-TEXT: hsl(167, 40%, 24%);
+  --DARK-BLUE-TEXT: hsl(198, 62%, 26%);
 
 
  
---Darkdesaturatedcyangraphicdesigntext: hsl(167, 40%, 24%);
---Darkphotographytext: hsl(198, 62%, 26%);
 --Darkmoderatecyanfooter: hsl(168, 34%, 41%);
 
 --Grayishblue: hsl(210, 4%, 67%);

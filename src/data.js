@@ -15,36 +15,38 @@ const cardtext = [
 
 const cardtextImg = [
     {
-        id: 1,
+        id: 3,
         title: 'Graphic design',
         paragraph: 'Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.',
         desktopImg: 'images/desktop/image-graphic-design.jpg',
-        mobileImg: 'images/mobile/image-graphic-design.jpg'
+        mobileImg: 'images/mobile/image-graphic-design.jpg',
+        textcolor: 'cyan'
     },
     {
-        id: 2,
+        id: 4,
         title: 'Photography',
         paragraph: 'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.',
         desktopImg: 'images/desktop/image-photography.jpg',
-        mobileImg: 'images/mobile/image-photography.jpg'
+        mobileImg: 'images/mobile/image-photography.jpg',
+        textcolor: 'blue'
     }
 ]
 
 const clientTestimonials = [
     {
-        id: 1,
+        id: 5,
         comment: 'We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.',
         name: 'Emily R.',
         job: 'Marketing Director'
     },
     {
-        id: 2,
+        id: 6,
         comment: 'unnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.',
         name: ' Thomas S.',
         job: 'Chief Operating Officer'
     },
     {
-        id:3,
+        id:7,
         comment: 'Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!',
         name: 'Jennie F.',
         job: 'Business Owner'
