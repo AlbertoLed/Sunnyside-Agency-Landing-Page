@@ -42,7 +42,7 @@ const clientTestimonials = [
     },
     {
         id: 6,
-        comment: 'unnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.',
+        comment: 'Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.',
         name: ' Thomas S.',
         job: 'Chief Operating Officer',
         img: 'images/image-thomas.jpg'

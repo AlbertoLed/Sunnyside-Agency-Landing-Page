@@ -1,0 +1,27 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 25px;
+    text-align: center;
+}
+.testimonial__img {
+    border-radius: 50%;
+    width: 70px;
+    margin-bottom: 35px;
+}
+.testimonial__comment {
+    color: var(--GRAY);
+    line-height: 1.6em;
+    margin-bottom: 35px;
+}
+.testimonial__name {
+    color: var(--DARK-BLUE);
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.testimonial__job {
+    color: var(--LIGTH-GRAYISH-BLUE);
+    font-size: .79em;
+}

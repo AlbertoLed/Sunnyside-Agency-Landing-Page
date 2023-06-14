@@ -15,6 +15,8 @@ font-family: 'Fraunces', serif; */
   --SALMON: hsl(7 99% 70% / .25);
   --DARK-BLUE: hsl(212, 27%, 19%);
   --GRAYISH-BLUE: hsl(232, 10%, 55%);
+  --LIGTH-GRAYISH-BLUE: hsl(210, 4%, 67%);
+  --GRAY: hsl(220, 2%, 31%);
 
   --DARK-CYAN-TEXT: hsl(167, 40%, 24%);
   --DARK-BLUE-TEXT: hsl(198, 62%, 26%);
@@ -22,9 +24,6 @@ font-family: 'Fraunces', serif; */
 
  
 --Darkmoderatecyanfooter: hsl(168, 34%, 41%);
-
---Grayishblue: hsl(210, 4%, 67%);
---White: hsl(0, 0%, 100%);
 
   font-family: 'Barlow', sans-serif
 }
