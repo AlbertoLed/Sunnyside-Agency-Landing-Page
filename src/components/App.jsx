@@ -24,6 +24,12 @@ function App() {
           <h2 className='testimonials-section__title'>Client testimonials</h2>
           {testimonials}
         </section>
+        <section className='gallery'>
+          <img className='gallery__img' src='images/mobile/image-gallery-milkbottles.jpg' alt='' />
+          <img className='gallery__img' src='images/mobile/image-gallery-orange.jpg' alt='' />
+          <img className='gallery__img' src='images/mobile/image-gallery-cone.jpg' alt='' />
+          <img className='gallery__img' src='images/mobile/image-gallery-sugar-cubes.jpg' alt='' />
+        </section>
         {/* photos */}
 
       </main>

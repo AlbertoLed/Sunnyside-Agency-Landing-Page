@@ -1,5 +1,5 @@
 .testimonials-section {
-    padding: 50px 0;
+    padding: 60px 0;
 }
 .testimonials-section__title {
     font-family: 'Fraunces', serif;
@@ -10,4 +10,13 @@
     letter-spacing: .2em;
     margin-bottom: 30px;
     font-weight: 900;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.gallery__img {
+    width: 100%;
 }
