@@ -24,6 +24,8 @@
     text-transform: uppercase;
     text-align: center;
     color: var(--WHITE);
-    font-size: 1.8em;
-    letter-spacing: 4px;
+    font-size: 2.2em;
+    font-weight: 900;
+    letter-spacing: 6px;
+    margin-bottom: 50px;
 }
