@@ -10,8 +10,18 @@
     display: flex;
     justify-content: space-between;
     padding: 30px 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: var(--BLUE-NAV-BG);
+    z-index: 2;
+}
+.nav__btn {
+    width: 23px;
+    height: 18px;
 }
 .header__content {
+    padding-top: 84px;
     flex-grow: 1;
     justify-content: center;
     display: flex;
