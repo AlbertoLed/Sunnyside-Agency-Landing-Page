@@ -4,6 +4,7 @@ import Info from './Info.jsx'
 import { clientTestimonials } from '../data.js'
 import Testimonial from './Testimonial.jsx'
 import './App.css'
+import Footer from './Footer.jsx'
 
 function App() {
 
@@ -19,7 +20,6 @@ function App() {
       <Header />
       <main>
         <Info />
-        {/* testimonials */}
         <section className='testimonials-section'>
           <h2 className='testimonials-section__title'>Client testimonials</h2>
           {testimonials}
@@ -30,11 +30,10 @@ function App() {
           <img className='gallery__img' src='images/mobile/image-gallery-cone.jpg' alt='' />
           <img className='gallery__img' src='images/mobile/image-gallery-sugar-cubes.jpg' alt='' />
         </section>
-        {/* photos */}
 
       </main>
 
-      {/* footer */}
+      <Footer />
 
     </>
   )

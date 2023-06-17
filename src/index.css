@@ -16,14 +16,11 @@ font-family: 'Fraunces', serif; */
   --DARK-BLUE: hsl(212, 27%, 19%);
   --GRAYISH-BLUE: hsl(232, 10%, 55%);
   --LIGTH-GRAYISH-BLUE: hsl(210, 4%, 67%);
-  --GRAY: hsl(220, 2%, 31%);
-
+  --GRAY: hsl(213, 9%, 39%);
   --DARK-CYAN-TEXT: hsl(167, 40%, 24%);
   --DARK-BLUE-TEXT: hsl(198, 62%, 26%);
-
-
- 
---Darkmoderatecyanfooter: hsl(168, 34%, 41%);
+  --MODERATE-CYAN: hsl(168, 34%, 41%);
+  --LIGTH-CYAN: hsl(167, 44%, 70%);
 
   font-family: 'Barlow', sans-serif
 }

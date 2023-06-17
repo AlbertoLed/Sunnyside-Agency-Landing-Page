@@ -55,9 +55,9 @@
   Jennie F.
   Business Owner]
 
-  About
-  Services
-  Projects
+  [About]
+  [Services]
+  [Projects]
   Contact
 
   <div class="attribution">
