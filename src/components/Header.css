@@ -43,14 +43,44 @@
 .header__arrow-icon {
     margin-bottom: 28vh;
 }
+@media (min-width: 600px) {
+    .header__title {
+        margin-bottom: 13vh;
+    }
+    .header__arrow-icon {
+        margin-bottom: 265px;
+    }
+}
+@media (min-width: 660px) {
 
+    .header__arrow-icon {
+        margin-bottom: 300px;
+    }
+}
 @media (min-width: 750px) {
     .header {
         background-image: url(./assets/desktop/image-header.jpg);
-        /* height: 100vh;
-        background-position: bottom;
-        background-size: cover;
-        display: flex;
-        flex-direction: column; */
+    }
+    .header__title {
+        font-size: 3em;
+        letter-spacing: 8px;
+        margin-bottom: 10vh;
+    }
+    .header__arrow-icon {
+        margin-bottom: 39vh;
+    }
+}
+@media (min-width: 1560px) {
+    .header__arrow-icon {
+        margin-bottom: 350px;
+    }
+}
+@media (min-width: 1620px) {
+    .header__title {
+        margin-bottom: 9vh;
+    }
+
+    .header__arrow-icon {
+        margin-bottom: 22.5vw;
     }
 }
