@@ -1,7 +1,7 @@
 .header {
     background-image: url(./assets/mobile/image-header.jpg);
     height: 100vh;
-    background-position: top;
+    background-position: bottom;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -22,12 +22,13 @@
 }
 .header__content {
     padding-top: 84px;
+    padding-left: 5%;
+    padding-right: 5%;
     flex-grow: 1;
-    justify-content: center;
+    justify-content: flex-end;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 .header__title {
     font-family: 'Fraunces', serif;
@@ -37,5 +38,19 @@
     font-size: 2.2em;
     font-weight: 900;
     letter-spacing: 6px;
-    margin-bottom: 50px;
+    margin-bottom: 15vh;
+}
+.header__arrow-icon {
+    margin-bottom: 28vh;
+}
+
+@media (min-width: 750px) {
+    .header {
+        background-image: url(./assets/desktop/image-header.jpg);
+        /* height: 100vh;
+        background-position: bottom;
+        background-size: cover;
+        display: flex;
+        flex-direction: column; */
+    }
 }

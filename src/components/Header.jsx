@@ -15,7 +15,7 @@ function Header() {
             </nav>
             <div className='header__content'>
                 <h1 className='header__title'>We are creatives</h1>
-                <img className='header__arrowIcon' src={iconArrowDown} />
+                <img className='header__arrow-icon' src={iconArrowDown} />
             </div>
         </header>
     )
