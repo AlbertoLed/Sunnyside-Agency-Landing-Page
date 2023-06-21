@@ -18,16 +18,14 @@ const cardtextImg = [
         id: 3,
         title: 'Graphic design',
         paragraph: 'Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.',
-        desktopImg: 'images/desktop/image-graphic-design.jpg',
-        mobileImg: 'images/mobile/image-graphic-design.jpg',
+        img: 'image-graphic-design.jpg',
         textcolor: 'cyan'
     },
     {
         id: 4,
         title: 'Photography',
         paragraph: 'Increase your credibility by getting the most stunning, high-quality photos that improve your business image.',
-        desktopImg: 'images/desktop/image-photography.jpg',
-        mobileImg: 'images/mobile/image-photography.jpg',
+        img: 'image-photography.jpg',
         textcolor: 'blue'
     }
 ]

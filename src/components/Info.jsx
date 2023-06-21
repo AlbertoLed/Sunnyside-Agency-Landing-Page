@@ -27,9 +27,9 @@ function Info() {
 
     return (
         <section className='main-section'>
-            <img className='main-section__img' src={imgTransform} alt='Image transform' />
+            <div className='main-section__img main-section__img--transform'></div>
             {textcards[0]}
-            <img className='main-section__img' src={imgStandOut} alt='Image stand out' />
+            <div className='main-section__img main-section__img--stand'></div>
             {textcards[1]}
             {textimgcards[0]}
             {textimgcards[1]}

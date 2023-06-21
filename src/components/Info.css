@@ -1,3 +1,37 @@
+.main-section {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 .main-section__img {
     width: 100%;
+    aspect-ratio: 125 / 104;
+    background-size: contain;
 }
+.main-section__img--transform {
+    background-image: url('/images/mobile/image-transform.jpg');
+}
+.main-section__img--stand {
+    background-image: url('/images/mobile/image-stand-out.jpg');
+}
+@media (min-width: 770px) {
+    .main-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        aspect-ratio: 125 / 104;
+    }
+}
+
+@media (min-width: 910px) {
+    .main-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        aspect-ratio: 6 / 5;
+    }
+    .main-section__img--transform {
+        background-image: url('/images/desktop/image-transform.jpg');
+    }
+    .main-section__img--stand {
+        background-image: url('/images/desktop/image-stand-out.jpg');
+    }
+}
+    
