@@ -31,6 +31,19 @@
 .img-card__text--blue {
     color: var(--DARK-BLUE-TEXT);
 }
+@media (min-width: 600px) {
+    .img-card {
+        aspect-ratio: 5 / 7;
+        background-size: cover;
+        background-position: top;
+    }
+}
+@media (min-width: 770px) {
+    .img-card {
+        aspect-ratio: 5 / 8;
+        background-size: contain;
+    }
+}
 
 @media (min-width: 910px) {
     .img-card {
@@ -41,5 +54,8 @@
     }
     .img-card--photography {
         background-image: url('/images/desktop/image-photography.jpg');
+    }
+    .img-card__text {
+        padding: 9% 7%;
     }
 }
