@@ -16,9 +16,6 @@
     padding-right: 7%;
     padding-top: 115%;
     align-self: flex-start;
-
-    /* align-self: flex-end;
-    padding: 16.5% 7%; */
 }
 .img-card__title {
     font-family: 'Fraunces', serif;
@@ -62,5 +59,30 @@
     }
     .img-card__text {
         padding-top: 50%;
+        padding-left: 15%;
+        padding-right: 15%;
     }
+}
+@media (min-width: 1200px) {
+    .img-card__text {
+        padding-top: 54%;
+        padding-left: 26%;
+        padding-right: 26%;
+    }
+}
+@media (min-width: 1600px) {
+    .img-card__text {
+        padding-top: 58%;
+        padding-left: 26%;
+        padding-right: 26%;
+    }
+    .img-card__title {
+        /* margin-bottom: 25px; */
+        font-size: 2em;
+    }
+    .img-card__paragraph {
+        font-size: 1em;
+        /* line-height: 1.6em; */
+    }
+    
 }
