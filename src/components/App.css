@@ -11,6 +11,11 @@
     margin-bottom: 30px;
     font-weight: 900;
 }
+.testimonials-section__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 .gallery {
     display: grid;
@@ -19,4 +24,24 @@
 }
 .gallery__img {
     width: 100%;
+}
+
+@media (min-width: 600px) {
+    .testimonials-section__container {
+        padding-left:  10%;
+        padding-right: 10%;
+    }
+}
+@media (min-width: 910px) {
+    .testimonials-section {
+        padding: 160px 0;
+    }
+    .testimonials-section__title {
+        font-size: 1.15em;
+    }
+    .testimonials-section__container {
+        margin-top: 80px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

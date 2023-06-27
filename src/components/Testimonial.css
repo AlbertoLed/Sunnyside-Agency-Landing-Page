@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 25px;
+    padding: 30px 7%;
     text-align: center;
 }
 .testimonial__img {
@@ -24,4 +24,20 @@
 .testimonial__job {
     color: var(--LIGTH-GRAYISH-BLUE);
     font-size: .79em;
+}
+@media (min-width: 910px) {
+    .testimonial {
+        padding: 0;
+        width: 31.5%;
+        height: 350px;
+        justify-content: space-between;
+    }
+    .testimonial__comment {
+        line-height: 1.7em;
+        font-size: 1.02em;
+        margin-bottom: 0;
+    }
+    .testimonial__img {
+        margin-bottom: 0;
+    }
 }

@@ -22,7 +22,9 @@ function App() {
         <Info />
         <section className='testimonials-section'>
           <h2 className='testimonials-section__title'>Client testimonials</h2>
-          {testimonials}
+          <div className='testimonials-section__container'>
+            {testimonials}
+          </div>
         </section>
         <section className='gallery'>
           <img className='gallery__img' src='images/mobile/image-gallery-milkbottles.jpg' alt='' />

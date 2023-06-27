@@ -7,8 +7,11 @@ function Testimonial(props) {
         <div className='testimonial'>
             <img className='testimonial__img' src={img} alt='Profile image' />
             <p className='testimonial__comment'>{comment}</p>
-            <p className='testimonial__name'>{name}</p>
-            <p className='testimonial__job'>{job}</p>
+            <div>
+                <p className='testimonial__name'>{name}</p>
+                <p className='testimonial__job'>{job}</p>
+            </div>
+            
         </div>
     )
 }
