@@ -59,8 +59,8 @@
     }
     .img-card__text {
         padding-top: 50%;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 12%;
+        padding-right: 12%;
     }
 }
 @media (min-width: 1200px) {
@@ -77,12 +77,9 @@
         padding-right: 26%;
     }
     .img-card__title {
-        /* margin-bottom: 25px; */
         font-size: 2em;
     }
     .img-card__paragraph {
         font-size: 1em;
-        /* line-height: 1.6em; */
     }
-    
 }
