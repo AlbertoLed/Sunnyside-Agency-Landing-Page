@@ -11,9 +11,14 @@
     background-image: url('/images/mobile/image-photography.jpg');
 }
 .img-card__text {
-    align-self: flex-end;
     text-align: center;
-    padding: 16.5% 7%;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 115%;
+    align-self: flex-start;
+
+    /* align-self: flex-end;
+    padding: 16.5% 7%; */
 }
 .img-card__title {
     font-family: 'Fraunces', serif;
@@ -56,6 +61,6 @@
         background-image: url('/images/desktop/image-photography.jpg');
     }
     .img-card__text {
-        padding: 9% 7%;
+        padding-top: 50%;
     }
 }

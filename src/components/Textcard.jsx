@@ -14,7 +14,7 @@ function Textcard(props) {
     }
 
     return(
-        <div className={`card ${color === 'yellow' && `card-yellow`}`}>
+        <div className={`card ${color === 'yellow' ? `card--left` :  `card--right`}`}>
             <h2 className='card__title'>{title}</h2>
             <p className='card__paragraph'>{paragraph}</p>
             <div className='anchor'>
