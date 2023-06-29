@@ -27,10 +27,10 @@ function App() {
           </div>
         </section>
         <section className='gallery'>
-          <img className='gallery__img' src='images/mobile/image-gallery-milkbottles.jpg' alt='' />
-          <img className='gallery__img' src='images/mobile/image-gallery-orange.jpg' alt='' />
-          <img className='gallery__img' src='images/mobile/image-gallery-cone.jpg' alt='' />
-          <img className='gallery__img' src='images/mobile/image-gallery-sugar-cubes.jpg' alt='' />
+          <div className='gallery__img gallery__img--milkbottles'></div>
+          <div className='gallery__img gallery__img--orange'></div>
+          <div className='gallery__img gallery__img--cone'></div>
+          <div className='gallery__img gallery__img--sugarcubes'></div>
         </section>
 
       </main>
