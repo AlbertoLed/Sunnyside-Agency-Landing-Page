@@ -15,20 +15,19 @@ function Footer() {
                 <a className='footer__anchor' href="">Services</a>
                 <a className='footer__anchor' href="">Projects</a>
             </div>
-            <div className='footer__contact'>
-                <a href="">
+            <div className='footer__contacts'>
+                <a className='footer__contact' href="">
                     <img src={facebookIcon} alt='Facebook icon' />
                 </a>
-                <a href="">
+                <a className='footer__contact' href="">
                     <img src={instagramIcon} alt='Instagram icon' />
                 </a>
-                <a href="">
+                <a className='footer__contact' href="">
                     <img src={twitterIcon} alt='Twitter icon' />
                 </a>
-                <a href="">
+                <a className='footer__contact' href="">
                     <img src={pinterestIcon} alt='Pinterest icon' />
                 </a>
-                
             </div>
         </footer>
     )

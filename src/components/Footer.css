@@ -19,10 +19,22 @@
 .footer__anchor:link, .footer__anchor:visited {
     color: var(--MODERATE-CYAN);
     text-decoration: none;
+    transition: color .2s;
 }
-.footer__contact {
+.footer__anchor:hover {
+    color: var(--DARK-CYAN-TEXT);
+    text-decoration: none;
+}
+.footer__contacts {
     display: flex;
     width: 160px;
     justify-content: space-between;
     margin-top: 80px;
+}
+.footer__contact {
+    transition: all .2s;
+}
+.footer__contact:hover {
+    transform: translateY(4px);
+    filter: brightness(70%);
 }
