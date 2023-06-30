@@ -185,13 +185,16 @@
         transition: height .2s;
     }
     .desktop-nav__btn--contact:hover {
-        color: var(--WHITE)
+        color: var(--WHITE);
     }
     .desktop-nav__btn--contact:hover::after {
         top: auto;
         bottom: 0;
         height: 100%;
-
+    }
+    .desktop-nav__btn--contact:active {
+        border: 1px solid var(--WHITE);
+        padding: 14px 29px;
     }
     .header {
         background-image: url(./assets/desktop/image-header.jpg);
