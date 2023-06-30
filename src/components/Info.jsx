@@ -1,8 +1,6 @@
 import React from 'react'
 import Textcard from './Textcard.jsx'
 import TextImgcard from './TextImgcard.jsx'
-import imgTransform from '../../public/images/mobile/image-transform.jpg'
-import imgStandOut from '../../public/images/mobile/image-stand-out.jpg'
 import './Info.css'
 import { cardtext, cardtextImg } from '../data.js'
 
