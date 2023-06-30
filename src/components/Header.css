@@ -51,20 +51,47 @@
 }
 .mobile-nav__btn {
     text-align: center;
+    cursor: pointer;
 }
 .mobile-nav__btn--menu {
     color: var(--GRAYISH-BLUE);
     font-size: 1.15em;
-
+    transition: color .3s;
+}
+.mobile-nav__btn--menu:hover {
+    color: var(--LIGTH-GRAYISH-BLUE);
 }
 .mobile-nav__btn--contact {
     text-transform: uppercase;
     font-family: 'Fraunces', serif;
     font-size: .95em;
-    background-color: var(--YELLOW  );
+    background-color: var(--YELLOW);
     align-self: center;
     padding: 15px 30px;
     border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color .3s;
+}
+.mobile-nav__btn--contact::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: var(--SALMON);
+    z-index: -1;
+    transition: height .3s;
+}
+.mobile-nav__btn--contact:hover {
+    color: var(--WHITE);
+}
+.mobile-nav__btn--contact:hover::after {
+    height: 100%;
+    top: auto;
+    bottom: 0;
 }
 .header__content {
     padding-top: 84px;
@@ -106,7 +133,7 @@
     .nav {
         padding: 15.5px 7%;
     }
-    .mobile-nav-launcher {
+    .mobile-nav-launcher, .mobile-nav {
         display: none;
     }
     .desktop-nav {
@@ -124,7 +151,7 @@
         margin-bottom: 15px;
         color: var(--WHITE);
         margin-right: 45px;
-        transition: all .2s;
+        transition: all .3s;
     }
     .desktop-nav__btn--menu:hover {
         text-shadow: 
