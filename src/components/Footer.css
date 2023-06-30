@@ -33,7 +33,7 @@
 }
 .footer__contact {
     transition: transform .3s,
-                filter .3s .1s;
+                filter .1s .1s;
 }
 .footer__contact:hover {
     transform: translateY(-4px);
