@@ -76,12 +76,14 @@
     .desktop-nav__btn {
         font-size: 1.05em;
     }
+    .desktop-nav__btn:hover {
+        cursor: pointer;
+    }
     .desktop-nav__btn--menu {
         margin-top: 15px;
         margin-bottom: 15px;
         color: var(--WHITE);
         margin-right: 45px;
-
     }
     .desktop-nav__btn--contact {
         padding: 15px 30px;
@@ -90,7 +92,30 @@
         font-family: 'Fraunces', serif;
         font-size: .93em;
         border-radius: 30px;
-        /* margin-right: 25px; */
+        transition:
+            color .3s;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .desktop-nav__btn--contact::after {
+        content: '';
+        position: absolute;
+        background-color: var(--BLUE-LIGHT-HOVER);
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: height .2s;
+    }
+    .desktop-nav__btn--contact:hover {
+        color: var(--WHITE)
+    }
+    .desktop-nav__btn--contact:hover::after {
+        top: auto;
+        bottom: 0;
+        height: 100%;
 
     }
     .header {
