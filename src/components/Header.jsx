@@ -24,7 +24,11 @@ function Header() {
                     <li className='desktop-nav__btn desktop-nav__btn--menu'>Projects</li>
                     <li className='desktop-nav__btn desktop-nav__btn--contact'>Contact</li>
                 </ul>
-                {isMobileNavShowed && <div className='mobile-nav'>
+                {<div 
+                    className={`mobile-nav 
+                            ${isMobileNavShowed ? 
+                            `mobile-nav-visible` : 
+                            `mobile-nav-hidden`}`}>
                     <div className='mobile-nav__triangle'></div>
                     <ul className='mobile-nav__list'>
                         <li className='mobile-nav__btn mobile-nav__btn--menu'>About</li>

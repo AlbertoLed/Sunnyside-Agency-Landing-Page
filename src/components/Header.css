@@ -28,10 +28,19 @@
 }
 .mobile-nav {
     position: fixed;
-    top: 84px;
     left: 0;
     width: 100%;
-    padding: 0 7.5%;
+    padding: 0 7.5%;    
+}
+.mobile-nav-visible {
+    top: 84px;
+    animation-name: showMobileNav;
+    animation-duration: .5s;
+}
+.mobile-nav-hidden {
+    top: calc(84px - 420px);
+    animation-name: hideMobileNav;
+    animation-duration: .5s;
 }
 .mobile-nav__triangle {
     border-bottom: 25px solid var(--WHITE);
@@ -116,6 +125,24 @@
 .header__arrow-icon {
     margin-bottom: 28vh;
 }
+
+@keyframes showMobileNav {
+    from {
+        transform: translateY(-420px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+@keyframes hideMobileNav {
+    from {
+        transform: translateY(420px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
 @media (min-width: 600px) {
     .header__title {
         margin-bottom: 13vh;
