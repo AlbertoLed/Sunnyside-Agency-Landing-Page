@@ -160,8 +160,11 @@
     .nav {
         padding: 15.5px 7%;
     }
-    .mobile-nav-launcher, .mobile-nav {
+    .mobile-nav-launcher {
         display: none;
+    }
+    .mobile-nav {
+        visibility: hidden;
     }
     .desktop-nav {
         display: flex;
