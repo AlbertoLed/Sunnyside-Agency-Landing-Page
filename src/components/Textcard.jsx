@@ -6,10 +6,10 @@ function Textcard(props) {
 
     const anchorColor = color => {
         if(color === 'yellow') {
-            return 'anchor__marker--yellow'
+            return 'anchor__text--yellow'
         }
         else if(color === 'salmon') {
-            return 'anchor__marker--salmon'
+            return 'anchor__text--salmon'
         }
     }
 
@@ -17,10 +17,7 @@ function Textcard(props) {
         <div className={`card ${color === 'yellow' ? `card--left` :  `card--right`}`}>
             <h2 className='card__title'>{title}</h2>
             <p className='card__paragraph'>{paragraph}</p>
-            <div className='anchor'>
-                <p className='anchor__text'>Learn more</p>
-                <div className={`anchor__marker ${anchorColor(color)}`}></div>
-            </div>
+            <p className={`anchor__text ${anchorColor(color)}`}>Learn more</p>
             
         </div>
     )
