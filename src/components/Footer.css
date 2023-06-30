@@ -19,10 +19,10 @@
 .footer__anchor:link, .footer__anchor:visited {
     color: var(--MODERATE-CYAN);
     text-decoration: none;
-    transition: color .2s;
+    transition: color .3s;
 }
 .footer__anchor:hover {
-    color: var(--DARK-CYAN-TEXT);
+    color: var(--WHITE);
     text-decoration: none;
 }
 .footer__contacts {
@@ -32,9 +32,10 @@
     margin-top: 80px;
 }
 .footer__contact {
-    transition: all .2s;
+    transition: transform .3s,
+                filter .3s .1s;
 }
 .footer__contact:hover {
-    transform: translateY(4px);
-    filter: brightness(70%);
+    transform: translateY(-4px);
+    filter: brightness(1000%);
 }
