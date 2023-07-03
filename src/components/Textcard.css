@@ -4,6 +4,9 @@
     align-items: center;
     padding: 13.5vw 5vw;
 }
+.card--animation {
+    animation: cardAnimation 1.5s;
+}
 .card__title {
     font-family: 'Fraunces', serif;
     color: var(--DARK-BLUE);
@@ -52,7 +55,21 @@
 .anchor__text:hover::after {
     opacity: 1;
 }
+@keyframes cardAnimation {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
 
+    }
+    20% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 100;
+    }
+}
 @media (min-width: 770px) {
     .card {
         flex-direction: column;

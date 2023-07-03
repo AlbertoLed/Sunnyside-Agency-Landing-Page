@@ -1,6 +1,6 @@
 .header {
     background-image: url(./assets/mobile/image-header.jpg);
-    height: 100vh;
+    height: 101vh;
     background-position: bottom;
     background-size: cover;
     display: flex;
