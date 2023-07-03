@@ -9,9 +9,11 @@ import iconArrowDown from '../../public/images/icon-arrow-down.svg'
 function Header() {
 
     const [isMobileNavShowed, setIsMobileNavShowed] = React.useState(false)
+    const [isFirstTime, setIsFirtsTime] = React.useState(true)
 
     function handleMobileNav() {
         setIsMobileNavShowed(prev => !prev)
+        setIsFirtsTime(false)
     }
 
     return(
@@ -24,7 +26,7 @@ function Header() {
                     <li className='desktop-nav__btn desktop-nav__btn--menu'>Projects</li>
                     <li className='desktop-nav__btn desktop-nav__btn--contact'>Contact</li>
                 </ul>
-                {<div 
+                {!isFirstTime && <div 
                     className={`mobile-nav 
                             ${isMobileNavShowed ? 
                             `mobile-nav-visible` : 
