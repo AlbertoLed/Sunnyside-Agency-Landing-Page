@@ -7,7 +7,6 @@ function Textcard(props) {
     const [intersectionCount, setIntersectionCount] = React.useState(0)
     const ref = React.useRef()
     React.useEffect(() => {
-        console.log('use effect')
         const oberver = new IntersectionObserver(() => {
             setIntersectionCount(prev => prev + 1)
         })

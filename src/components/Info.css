@@ -7,11 +7,25 @@
     aspect-ratio: 125 / 104;
     background-size: contain;
 }
+.main-section__img--animation {
+    animation: imagesAnimation 1.5s;
+}
 .main-section__img--transform {
     background-image: url('/images/mobile/image-transform.jpg');
 }
 .main-section__img--stand {
     background-image: url('/images/mobile/image-stand-out.jpg');
+}
+@keyframes imagesAnimation {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
 }
 @media (min-width: 600px) {
     .main-section__img {
