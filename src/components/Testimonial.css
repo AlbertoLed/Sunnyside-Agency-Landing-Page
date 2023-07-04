@@ -5,6 +5,9 @@
     padding: 30px 7%;
     text-align: center;
 }
+.testimonial--animation {
+    animation: testimonial-animation 1.5s;
+}
 .testimonial__img {
     border-radius: 50%;
     width: 70px;
@@ -24,6 +27,20 @@
 .testimonial__job {
     color: var(--LIGTH-GRAYISH-BLUE);
     font-size: .79em;
+}
+@keyframes testimonial-animation {
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    20% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity: 100;
+        transform: translateY(0);
+    }
 }
 @media (min-width: 910px) {
     .testimonial {
