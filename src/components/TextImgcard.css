@@ -5,7 +5,7 @@
     display: flex;
 }
 .img-card--animation {
-    animation: card-animation 3s;
+    animation: card-animation 1.5s;
 }
 .img-card--graphic {
     background-image: url('/images/mobile/image-graphic-design.jpg');
