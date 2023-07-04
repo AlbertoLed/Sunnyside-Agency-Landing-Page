@@ -4,6 +4,9 @@
     background-size: contain;
     display: flex;
 }
+.img-card--animation {
+    animation: card-animation 3s;
+}
 .img-card--graphic {
     background-image: url('/images/mobile/image-graphic-design.jpg');
 }
@@ -32,6 +35,17 @@
 }
 .img-card__text--blue {
     color: var(--DARK-BLUE-TEXT);
+}
+@keyframes card-animation {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
 }
 @media (min-width: 600px) {
     .img-card {
