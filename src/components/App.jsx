@@ -8,6 +8,15 @@ import Footer from './Footer.jsx'
 
 function App() {
 
+  const [intersectionCount, setIntersectionCount] = React.useState(0)
+  const ref = React.useRef()
+  React.useEffect(() => {
+    const observer = new IntersectionObserver(() => {
+      setIntersectionCount(prev => prev + 1)
+    })
+    observer.observe(ref.current)
+  }, [])
+
   const testimonials = clientTestimonials.map( item => 
     <Testimonial 
       key = {item.id}
@@ -26,7 +35,9 @@ function App() {
             {testimonials}
           </div>
         </section>
-        <section className='gallery'>
+        <section 
+          className={`gallery ${intersectionCount >= 2 && `gallery--animation`}`}
+          ref={ref}>
           <div className='gallery__img gallery__img--milkbottles'></div>
           <div className='gallery__img gallery__img--orange'></div>
           <div className='gallery__img gallery__img--cone'></div>

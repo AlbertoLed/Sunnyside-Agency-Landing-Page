@@ -22,6 +22,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
+.gallery--animation {
+    animation: gallery-animation 1.5s;
+}
 .gallery__img {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -40,7 +43,17 @@
 .gallery__img--sugarcubes {
     background-image: url('/images/mobile/image-gallery-sugar-cubes.jpg');
 }
-
+@keyframes gallery-animation {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
 @media (min-width: 600px) {
     .testimonials-section__container {
         padding-left:  10%;
